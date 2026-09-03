@@ -1,0 +1,55 @@
+body
+{
+    font-family: var(--font-family);
+    color:var(--text-color);
+}
+
+h2, h3, h4, h5, h6
+{
+    margin:5px;
+}
+
+h1
+{
+    margin-top:0;
+    margin-bottom:30px;
+    font-size: var(--title-size);
+    font-weight:var(--title-weight);
+}
+
+h2
+{
+    font-size: var(--cart-text-size);
+    font-weight:var(--cart-text-weight);
+}
+
+h3, p
+{
+    font-size: var(--dessert-type-size);
+    font-weight:var(--dessert-type-weight);
+}
+
+h4
+{
+    font-size: var(--dessert-name-size);
+    font-weight:var(--dessert-name-weight);
+}
+
+h5
+{
+    font-size: var(--dessert-price-size);
+    font-weight:var(--dessert-price-weight);
+    color:var(--dessert-price-color);
+}
+
+h6
+{
+    color:var(--cart-title-color);
+    font-size:var(--cart-title-size);
+    font-weight:var(--cart-title-weight);
+}
+
+p
+{
+    text-align: center;
+}

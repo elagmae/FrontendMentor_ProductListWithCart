@@ -1,0 +1,58 @@
+body
+{
+    --main-padding:50px;
+    --main-gap:50px;
+
+    --desserts-grid-gap:20px;
+    --dessert-card-size:220px;
+    --desserts-grid-width:70%;
+    --dessert-card-border-radius:16px;
+
+    --cart-button-height:50px;
+    --cart-button-width:200px;
+    --cart-button-padding:10px;
+    --cart-button-border-radius:50px;
+    --cart-button-image-size:22px;
+
+    --cart-panel-height:fit-content;
+    --cart-panel-padding:20px;
+
+    /* #region MainColorVariables */
+
+    --background-color:hsl(20, 50%, 98%);
+
+    --cart-button-border-color:hsl(12, 20%, 44%);
+    --cart-button-color:hsl(20, 50%, 98%);
+
+    --cart-panel-color:white;
+
+    /* #endregion MainColorVariables */
+
+    /* #region TextVariables */
+
+    --font-family:"Red Hat Text", sans-serif;
+    --text-color:hsl(14, 65%, 9%);
+
+    --title-size:45px;
+    --title-weight:700;
+
+    --cart-text-size:16px;
+    --cart-text-weight:600;
+
+    --dessert-type-size:14px;
+    --dessert-type-weight:400;
+
+    --dessert-name-size:16px;
+    --dessert-name-weight:600;
+
+    --dessert-price-size:18px;
+    --dessert-price-weight:600;
+    --dessert-price-color:hsl(14, 86%, 42%);
+
+    --cart-title-color:hsl(14, 86%, 42%);
+    --cart-title-size:25px;
+    --cart-title-weight:700;
+
+    /* #endregion TextVariables */
+
+}
