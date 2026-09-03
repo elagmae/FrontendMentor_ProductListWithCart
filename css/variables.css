@@ -4,7 +4,7 @@ body
     --main-gap:50px;
 
     --desserts-grid-gap:20px;
-    --dessert-card-size:220px;
+    --dessert-card-size:250px;
     --desserts-grid-width:70%;
     --dessert-card-border-radius:16px;
 
@@ -55,4 +55,12 @@ body
 
     /* #endregion TextVariables */
 
+}
+
+@media (max-width:1100px)
+{
+    body
+    {
+        --main-padding:10px;
+    }
 }
